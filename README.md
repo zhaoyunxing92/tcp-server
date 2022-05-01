@@ -1,2 +1,2 @@
 # tcp-server
-go tcp 服务
+为了测试k8s的tcp探针
