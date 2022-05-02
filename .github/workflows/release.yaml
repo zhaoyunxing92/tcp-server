@@ -36,4 +36,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: zhaoyunxing/salary-field:${{ steps.get_version.outputs.VERSION }}
+          tags: zhaoyunxing/tcp-server:${{ steps.get_version.outputs.VERSION }}
