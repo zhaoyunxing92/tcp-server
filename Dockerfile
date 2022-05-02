@@ -8,7 +8,7 @@ RUN go build  main.go
 FROM alpine:3.15.4 AS runner
 WORKDIR /app
 
-COPY --from=builder /app/main ./app
+COPY --from=builder /app/main .
 RUN chmod 775 main
 
 EXPOSE 8080
